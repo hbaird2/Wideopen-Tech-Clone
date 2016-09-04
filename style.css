@@ -1,0 +1,97 @@
+* {
+  box-sizing: border-box;
+}
+
+html, body {
+  height:100%;
+  margin:0;
+}
+
+.background {
+  height:500px;
+  width:100%;
+  background-image: url("https://upload.wikimedia.org/wikipedia/commons/8/88/Arthur_(hi_res).jpg");
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+}
+
+
+
+header {
+  width:100%;
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  margin:0;
+  padding:20px;
+  word-spacing: 30px;
+}
+
+.logo {
+  height:100px;
+  width: 200px;
+}
+
+.navbar {
+  text-transform: uppercase;
+  font-size:16px;
+  margin-left: 10px;
+  text-decoration: none;
+  color:white;
+}
+
+.title {
+  width: 70%;
+  margin:auto;
+}
+
+p {
+  color: white;
+  margin:0;
+}
+
+.sub-title {
+  display:flex;
+  flex-direction: row;
+  align-items: center;
+
+}
+
+
+.workshop {
+  font-size: 80px;
+}
+
+.left {
+  background: white;
+  width: 60px;
+  height:10px;
+  margin-right: 20px;
+}
+
+.right{
+  background: white;
+  width: 60px;
+  height:10px;
+  margin-left: 20px;
+}
+
+@media (max-width:850px) {
+  header {
+    word-spacing: 10px;
+  }
+
+}
+
+@media (max-width:750px) {
+  header {
+    background: lightgrey;
+    opacity: .8;
+  }
+
+  .navbar {
+    display: none;
+  }
+
+}
